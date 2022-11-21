@@ -7,9 +7,11 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
+
+
 @app.route("/about")
 def about():
-    return "<h1>changed baos npa</h1>"
+    return "<h1>THIS IS ABOUT PAGE REEEEEEEE</h1>"
 
 
 
